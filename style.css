@@ -1,0 +1,131 @@
+/* 
+@import "bootstrap.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    transition: height 0.3s linear;
+
+    background: #cbcbcb;
+    height: 80px;
+
+
+}
+
+  .footer{
+    color: red
+  }
+ */
+/*!
+ * Bootstrap Grid v5.2.3 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+ @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
+ @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+ 
+ .container,
+ .container-fluid,
+ .container-xxl,
+ .container-xl,
+ .container-lg,
+ .container-md,
+ .container-sm {
+   --bs-gutter-x: 1.5rem;
+   --bs-gutter-y: 0;
+   width: 100%;
+   padding-right: calc(var(--bs-gutter-x) * 0.5);
+   padding-left: calc(var(--bs-gutter-x) * 0.5);
+   margin-right: auto;
+   margin-left: auto;
+ }
+ 
+ @media (min-width: 576px) {
+   .container-sm, .container {
+     max-width: 540px;
+   }
+ }
+
+ body {
+   font-family: "Nunito", sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: white;
+ }
+ 
+ .main-menu .main-menu__ul {
+   text-align: left;
+ }
+ .main-menu .main-menu__ul .main-menu__ul__li {
+   display: inline-block;
+ }
+ .main-menu .main-menu__ul .main-menu__ul__li a {
+   text-decoration: none;
+   color: #212529;
+   padding: 25px 25px;
+   font-size: 13px;
+   font-weight: 1000;
+   letter-spacing: 1px;
+   line-height: 24px;
+   text-transform: uppercase;
+   transition: all 0.5s linear;
+ }
+
+ .header {
+   width: 100%;
+   position: fixed;
+   top: 0;
+   transition: height 0.3s linear;
+   background: tan;
+   height: 80px;
+ }
+
+ .header .main-menu
+ {
+   position: relative;
+   transition: top 0.3 linear;
+   top: 10px;
+   width: 100%;
+    position: fixed;
+
+
+    transition: height 0.3s linear;
+
+    background: tan;
+    height: 80px;
+ }
+
+ .get-started .title,
+ .you-need .title {
+   font-size: 24px;
+   font-weight: 600;
+   text-align: center;
+   display: block;
+   margin: 30px 0;
+ }
+ .get-started .desc,
+ .you-need .desc {
+   text-align: center;
+   color: burlywood;
+   width: 60%;
+   margin: 20px auto;
+ }
+ 
+ .footer {
+   background: burlywood;
+   box-shadow: 0 0 1px rgba(0, 0, 255, 0.5);
+   color: black;
+ }
